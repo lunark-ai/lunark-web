@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Dune Rise';
+    src: url('/fonts/dune_rise/Dune_Rise.otf') format('opentype'),
+         url('/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overscroll-behavior: none;
+    background: black;
+    color: #FCFCFC;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b4e54;
+    border-radius: 100%;
+    min-width: 8px;
+    max-width: 8px;
+    -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4b4e54;
+    min-width: 8px;
+    max-width: 8px;
+}
+
+::selection {
+    color: white;
+    background-color: #4b4e54;
+ }
+ 
+ ::-moz-selection {
+    color: white;
+    background-color: #4b4e54;
+ }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #4b4e54 transparent;
+    -webkit-appearance: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    ::-webkit-scrollbar-thumb {
+        min-width: 8px;
+        max-width: 8px;
+    }
+}

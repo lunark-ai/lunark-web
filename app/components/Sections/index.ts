@@ -1,0 +1,9 @@
+export { default as HeroSection } from './HeroSection';
+export { default as TrustedBySection } from './TrustedBySection';
+export { default as FeaturesSection } from './FeaturesSection';
+export { default as ForEveryoneSection } from './ForEveryoneSection';
+export { default as ChatSection } from './ChatSection';
+export { default as StatisticsSection } from './StatisticsSection';
+export { default as BackedBySection } from './BackedBySection';
+export { default as EcosystemPartnersSection } from './EcosystemPartnersSection';
+export { default as BlogSection } from './BlogSection';
