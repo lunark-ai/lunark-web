@@ -119,6 +119,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-Lunark AI Team - [https://lunark.ai](https://lunark.ai)
+Lunark AI Team - [https://lunarkai.org](https://lunarkai.org)
 
 Project Link: [https://github.com/lunark-ai/lunark-web](https://github.com/lunark-ai/lunark-web) 
