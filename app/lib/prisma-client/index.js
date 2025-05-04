@@ -361,7 +361,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/berkekiran/Projects/lunarkaiorg/lunarkai-web/app/lib/prisma-client",
+      "value": "/Users/berke/Projects/lunark-ai/lunark-web/app/lib/prisma-client",
       "fromEnvVar": null
     },
     "config": {
@@ -375,7 +375,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/berkekiran/Projects/lunarkaiorg/lunarkai-web/prisma/schema.prisma",
+    "sourceFilePath": "/Users/berke/Projects/lunark-ai/lunark-web/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {

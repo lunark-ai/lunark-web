@@ -6,6 +6,7 @@ import LoadingIcon from '../Base/LoadingIcon';
 import { useState } from 'react';
 import Popup from './Popup';
 import { Brain } from 'iconoir-react';
+import { RiAlertFill } from 'react-icons/ri';
 
 interface BalancePopupProps {
   isOpen: boolean;
@@ -58,7 +59,13 @@ const BalancePopup: React.FC<BalancePopupProps> = ({ isOpen, onClose, onSelect, 
               </div>
               <div className="p-6">
                 <div className="flex flex-row items-center justify-between gap-4">
-                  {balanceOptions.map((option, index) => {
+                  <div className="flex flex-col items-center gap-6 my-6">
+                    <RiAlertFill className="text-red-500 text-[32px]" />
+                    <p className="text-sm text-red-500 text-center font-medium w-[80%] mx-auto">
+                      Adding balance is disabled for new users. Please contact support to add balance.
+                    </p>
+                  </div>
+                  {/* {balanceOptions.map((option, index) => {
                     const isSelected = loading && selectedPrice === option.price;
                     return (
                       <motion.button
@@ -100,7 +107,7 @@ const BalancePopup: React.FC<BalancePopupProps> = ({ isOpen, onClose, onSelect, 
                         )}
                       </motion.button>
                     );
-                  })}
+                  })} */}
                 </div>
                 <div className="flex flex-col gap-4 mt-6">
                   <motion.p 
